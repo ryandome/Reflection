@@ -1,1 +1,47 @@
+h1
+{
+    color:white;
+    text-align: center;
+    font-size: 28px;
+}
 
+p.one
+{
+    color:black;
+    font-size:26px;
+    background: linear-gradient(purple,white,white,white);
+    border-radius:50%;
+    height:700px;
+    width:700px;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    padding:10px;
+    float:right;
+    overflow: auto;
+    
+}
+
+p.two
+{
+    color:black;
+    font-size: 26px;
+    background:linear-gradient(white,white,white,purple);
+    border-radius:50%;
+    height:700px;
+    width:700px;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    padding:10px;
+    overflow: auto;
+}
+
+body
+{
+    background:linear-gradient(darkgray,gray)
+}
